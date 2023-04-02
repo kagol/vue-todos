@@ -23,7 +23,7 @@ module.exports = {
     new VueLoaderPlugin()
   ],
   resolve: {
-    extensions: ['.js', '.vue', '.json', 'ts', 'tsx'],
+    extensions: ['.js', '.vue', '.json', '.ts', '.tsx'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src')
@@ -71,7 +71,8 @@ module.exports = {
         loader: 'ts-loader',
         exclude: /node_modules/,
         options: {
-          appendTsSuffixTo: [/\.vue$/]
+          appendTsSuffixTo: [/\.vue$/],
+          transpileOnly: true,
         },
         include: [resolve('src')]
       }

@@ -16,7 +16,7 @@
   </div>
 </template>
 <script lang="ts">
-import { addTodo } from '../api/api';  // 引入我们 封装好的两个接口函数。
+import { addTodo } from '../api/api'; // 引入我们 封装好的两个接口函数。
 export default {
   data() {
     return {

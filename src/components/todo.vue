@@ -71,7 +71,7 @@ export default {
         count: 12, // 数量
         locked: false // 是否绑定
       },
-      items: [  // 代办单项列表
+      items: [ // 代办单项列表
       ],
       text: '', // 用户输入单项项绑定的输入
       isUpdate: false // 新增修改状态
