@@ -12,7 +12,7 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
 import menus from './menus';
 import todo from './todo';
 export default {

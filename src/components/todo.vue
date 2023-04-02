@@ -59,7 +59,7 @@
     </div>
   </div>
 </template>
-<script>
+<script lang="ts">
 
 import item from './item';
 import { addRecord, getTodo, editTodo } from '../api/api';

@@ -12,7 +12,7 @@
     </div>
   </transition>
 </template>
-<script>
+<script lang="ts">
 // item 是todo的子组件,他接受一个对象item,来进行处理
 import { editRecord } from '../api/api';
 export default {
